@@ -275,6 +275,11 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn input {
+  margin-bottom: 15px;
+  border: 1px solid #23293B;
+  height: 25px;
+}
 .home .walk .walk-text .btn button {
   background-color: #23293B;
   color: white;
