@@ -167,6 +167,9 @@ p {
   align-items: center;
   background-color: #F6F6F6;
   border-bottom: #F1F1F1;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
 }
 .nav h1 {
   font-size: 4rem;
@@ -201,6 +204,7 @@ footer {
 }
 .home .intro img {
   width: 100%;
+  margin-top: 86px;
 }
 .home .intro h2 {
   padding: 15px;
