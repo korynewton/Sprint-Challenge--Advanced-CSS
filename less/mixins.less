@@ -1,1 +1,29 @@
 // Mixins Here
+
+.center-flex-row(){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-flex-column(){
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+//Parametric Mixin
+
+.main-btn(@bg-color, @font-color, @radius: 10px, @width: 30%, @height: 35px) {
+    background-color: @bg-color;
+    color: @font-color;
+    border-radius: @radius;
+    width: @width;
+    height: @height;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+}
